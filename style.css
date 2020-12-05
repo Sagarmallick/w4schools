@@ -1,0 +1,89 @@
+/* initial  */
+
+.initial {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------- HOVER EFFECT  */
+
+/* navbar 1 logo effect  */
+.logo-effect:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+  text-decoration: none;
+}
+.dim-white:hover {
+  background-color: #5dde6e;
+}
+
+/* ------------------------------- COLOR SECTION  */
+
+/* navbar background color  */
+.navbar2-color {
+  background-color: #3f2b96;
+}
+
+.bg-color {
+  background-color: #de5d83;
+}
+
+.dim-white {
+  background-color: #a8d6bd;
+}
+
+/* -------------------------------- TEXT FORMATS  */
+.capital {
+  text-transform: capitalize;
+}
+
+/* ---------------------------------SIZE FORMATS  */
+
+/* navbar 2 sizing  */
+.navbar-nav > li > a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.navbar {
+  min-height: 32px !important;
+}
+
+.logo-size {
+  font-size: 30px;
+}
+
+/* testing color  */
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: seagreen;
+}
+.white {
+  background-color: white;
+}
+
+.main-color {
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.opacity {
+  opacity: 0.5;
+}
